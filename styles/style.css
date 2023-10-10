@@ -116,6 +116,9 @@ section:focus {
 transform: scale(1.01);
 border: 3px solid rgb(47, 144, 255);
 }
+section:hover > :first-child {
+  color: var(--color-orange);
+}
 
 p {
   max-width: 40ch;
