@@ -27,7 +27,9 @@ main {}
 
 /*HEADER*/
 header {
+  max-width: 50rem;
   height: 15rem;
+  margin: 0 auto;
   padding: 1rem;
 
   background: rgb(0 0 0 / 75%);
@@ -66,7 +68,7 @@ header div em {
 }
 .title h2:hover::before,
 .title h2:focus::before {
-  content: '# ';
+  content: '#';
 }
 
 /*ARTICLES*/
