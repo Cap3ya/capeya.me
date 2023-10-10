@@ -75,13 +75,8 @@ h2:focus::before {
   content: '# ';
 }
 
-h3 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
+/*ARTICLES*/
 article {
-
   display: flex; 
   justify-content: center;
   align-content: center;
@@ -89,6 +84,7 @@ article {
   gap: 2rem;
 }
 
+/*SECTIONS*/
 section {
   line-height: 1.6;
   padding: 1rem;
@@ -105,7 +101,6 @@ section {
   gap: 1rem;
 
   background: rgb(0 0 0 / 25%);
-
 }
 section:hover, 
 section:focus {
@@ -115,17 +110,46 @@ border: 3px solid rgb(47, 144, 255);
 section:hover > :first-child {
   color: var(--color-orange);
 }
-
-p {
+section h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+section img {
+  object-fit:contain;
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  aspect-ratio: 16/9;
+}
+section p {
   max-width: 40ch;
   text-align: center;
 }
-
-a {
+section button {
+	color: azure;
+	background-color: inherit;
+	padding: 1rem;
+	border-radius: 10px;
+	border: 1px solid gray;
+	font-family: inherit;
+	box-shadow: 0 1px blue;
+	text-shadow: 0 -1px orange;
+  margin-top: 2rem;
+}
+section button:hover,
+section button:focus {
+	outline: 1px solid white;
+}
+.title a, footer a, .contact a, section button a {
   text-decoration: none;
   color: inherit;
 }
+section .underline {
+  color: #09E;
+  font-weight: 900;
+}
 
+/*CONTACT*/
 .contact a {
   animation: bounce 1s ease infinite;
 }
@@ -139,6 +163,7 @@ a {
   100% { transform: scale(1) translateY(0);}
 }
 
+/*FOOTER*/
 footer {
   height: 20vh;
   display: flex;
@@ -151,56 +176,34 @@ footer a:hover,
 footer a:focus {
   border-bottom: 2px solid white;
 }
-
-.underline {
-  color: #09E;
-  font-weight: 900;
-}
-
-button {
-	color: azure;
-	background-color: inherit;
-	padding: 1rem;
-	border-radius: 10px;
-	border: 1px solid gray;
-	font-family: inherit;
-	box-shadow: 0 1px blue;
-	text-shadow: 0 -1px orange;
-  margin-top: 2rem;
-}
-button:hover,
-button:focus {
-	outline: 1px solid white;
-}
-img {
-  object-fit:contain;
-  width: 100%;
-  height: auto;
-  border-radius: 25px;
-  aspect-ratio: 16/9;
-}
-ul {
+footer ul {
   display: flex;
   gap: 1rem;
   font-size: inherit;
-
 }
-li {
+footer ul li {
   list-style: none;
   color: var(--color-blue);
   color: white;
 }
-li:hover,
-li:focus {
+footer ul li:hover,
+footer ul li:focus {
   transform: translate(0, -1px);
 }
-.crafted {
+footer .crafted {
   text-shadow: 1px 1px var(--color-orange);
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: var(--color-orange);
 }
 
+/*SKILLS*/
+.JS,
+.CSS, 
+.HTML {
+  font-size: small;
+  font-weight: bold;
+}
 .CSS {
   color: #254BDD;
 }
@@ -209,10 +212,4 @@ li:focus {
 }
 .JS {
   color: #E8D44D;
-}
-.JS,
-.CSS, 
-.HTML {
-  font-size: small;
-  font-weight: bold;
 }
