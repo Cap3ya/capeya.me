@@ -146,6 +146,10 @@ section .underline {
   font-weight: 900;
 }
 
+/*MYSKILSS*/
+#mySkills p > span {
+  font-size:small;
+}
 /*CONTACT*/
 .contact a {
   animation: bounce 1s ease infinite;
