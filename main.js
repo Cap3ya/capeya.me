@@ -92,7 +92,7 @@ projects.forEach(project => {
     const section = document.createElement('section'); root.appendChild(section);
     const header = document.createElement('h3'); header.textContent = project.title; section.appendChild(header);
     const image = document.createElement('img'); image.src = project.image.src; image.alt = project.image.alt; image.width = project.image.width; image.height = project.image.height; section.appendChild(image);
-    const skills = document.createElement('p'); project.skills.forEach(skill => skills.innerHTML += `<span class="${skill}">` + skill + "</span>"); section.appendChild(skills);
+    const skills = document.createElement('p'); project.skills.forEach(skill => skills.innerHTML += `<span class="${skill}">` + skill + "</span> "); section.appendChild(skills);
     const text = document.createElement('p'); text.textContent = project.text; section.appendChild(text);
     const button = document.createElement('button'); button.innerHTML = `<a href=${project.button.href}>` + project.button.text + "</a>"; section.appendChild(button);
 });
