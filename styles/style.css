@@ -207,9 +207,7 @@ footer .crafted {
 }
 
 /*SKILLS*/
-.JS,
-.CSS, 
-.HTML {
+.CSS, .HTML, .JavaScript {
   font-size: small;
   font-weight: bold;
 }
@@ -219,6 +217,6 @@ footer .crafted {
 .HTML {
   color: #DD4B24;
 }
-.JS {
+.JavaScript {
   color: #E8D44D;
 }
