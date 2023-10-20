@@ -9,7 +9,7 @@ const projects = [
             width: "364",
         },
         skills: ["HTML", "CSS", "JavaScript"],
-        text: "Play a gainst a well behaved bot and try, in five rounds, to win the game!",
+        text: "Play against a well behaved bot and try, in five rounds, to win the game!",
         button: {
             href: "https://Cap3ya.github.io/RockPaperScissors/rockPaperScissors.html",
             text: "Beat him"
