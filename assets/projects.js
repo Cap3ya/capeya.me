@@ -59,4 +59,19 @@ export const projects = [
             text: "Store them"
         },
     },
+    {
+        title: "Tic tac toe",
+        image: {
+            src: "./images/tictactoe.png", 
+            alt: "Screenshot", 
+            height: "205",
+            width: "365",
+        },
+        skills: ["HTML", "CSS", "JavaScript", "HTMX"],
+        text: "Read the rules, pick your character and play with a friend or againt an AI.",
+        button: {
+            href: "https://Cap3ya.github.io/TicTacToe/index.html",
+            text: "Have fun"
+        },
+    },
 ];
