@@ -74,4 +74,19 @@ export const projects = [
             text: "Have fun"
         },
     },
+    {
+        title: "Tasty's Burgers",
+        image: {
+            src: "./images/restaurant.png", 
+            alt: "Screenshot", 
+            height: "205",
+            width: "365",
+        },
+        skills: ["HTML", "CSS", "JavaScript", "WebPack"],
+        text: "Bundled with WebPack. Use the Tabs to navigate between Home, Brand & Menu.",
+        button: {
+            href: "https://cap3ya.github.io/Restaurant/dist/index.html",
+            text: "Let's visit"
+        },
+    },
 ];
