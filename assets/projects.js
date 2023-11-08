@@ -83,7 +83,7 @@ export const projects = [
             width: "365",
         },
         skills: ["HTML", "CSS", "JavaScript", "WebPack"],
-        text: "Bundled with WebPack. Use the Tabs to navigate between Home, Brand & Menu.",
+        text: "Bundled with WebPack. Use tabs to navigate between Home, Brand & Menu.",
         button: {
             href: "https://cap3ya.github.io/Restaurant/dist/index.html",
             text: "Let's visit"
