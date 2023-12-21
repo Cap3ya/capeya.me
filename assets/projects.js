@@ -89,4 +89,19 @@ export const projects = [
             text: "Let's visit"
         },
     },
+    {
+        title: "Afpa's Dwwm",
+        image: {
+            src: "./images/afpa.png", 
+            alt: "Screenshot", 
+            height: "205",
+            width: "365",
+        },
+        skills: ["Figma", "HTML", "CSS"],
+        text: "AFPA's project. Had to wireframe, mockup and prototype a 5 pages responsive website.",
+        button: {
+            href: "https://cap3ya.github.io/Afpa/index.html",
+            text: "Check it out"
+        },
+    },
 ];
