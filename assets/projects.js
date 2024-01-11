@@ -104,4 +104,19 @@ export const projects = [
             text: "Check it out"
         },
     },
+    {
+        title: "to-do list",
+        image: {
+            src: "./images/todolist.png", 
+            alt: "Screenshot", 
+            height: "205",
+            width: "365",
+        },
+        skills: ["HTML", "CSS", "JavaScript"],
+        text: "Front end to-do list. Login or signup. CRUD, filter and sort tasks.",
+        button: {
+            href: "https://cap3ya.github.io/todolist/index.html",
+            text: "Check it out"
+        },
+    },
 ];
