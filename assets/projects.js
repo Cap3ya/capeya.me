@@ -11,7 +11,7 @@ export const projects = [
         text: "Play against a well behaved bot and try, in five rounds, to win the game!",
         button: {
             href: "https://Cap3ya.github.io/RockPaperScissors/rockPaperScissors.html",
-            text: "Beat him"
+            text: "Live preview"
         },
     },
     {
@@ -26,7 +26,7 @@ export const projects = [
         text: "A calculator that allows to perform the four basic arithmetic operations.",
         button: {
             href: "https://Cap3ya.github.io/Calculator/calculator.html",
-            text: "Sum up"
+            text: "Live preview"
         },
     },
     {
@@ -41,7 +41,7 @@ export const projects = [
         text: "A sign up page that uses forms, inputs and sanitization to signup.",
         button: {
             href: "https://Cap3ya.github.io/SignupPage/signUpPage.html",
-            text: "Sign up"
+            text: "Live preview"
         },
     },
     {
@@ -56,7 +56,7 @@ export const projects = [
         text: "Use localStorage and JSON to add, remove and edit books from your library.",
         button: {
             href: "https://Cap3ya.github.io/Library/library.html",
-            text: "Store them"
+            text: "Live preview"
         },
     },
     {
@@ -71,7 +71,7 @@ export const projects = [
         text: "Read the rules, pick your character and play with a friend or againt an AI.",
         button: {
             href: "https://Cap3ya.github.io/TicTacToe/index.html",
-            text: "Have fun"
+            text: "Live preview"
         },
     },
     {
@@ -86,7 +86,7 @@ export const projects = [
         text: "Full javaScript and bundled with WebPack. Use tabs to navigate between pages.",
         button: {
             href: "https://cap3ya.github.io/Restaurant/dist/index.html",
-            text: "Let's visit"
+            text: "Live preview"
         },
     },
     {
@@ -101,7 +101,7 @@ export const projects = [
         text: "Had to wireframe, mockup and prototype a 5 pages responsive website.",
         button: {
             href: "https://cap3ya.github.io/Afpa/index.html",
-            text: "Check it out"
+            text: "Live preview"
         },
     },
     {
@@ -116,7 +116,7 @@ export const projects = [
         text: "Front end to-do list. Login or signup. CRUD, filter and sort tasks.",
         button: {
             href: "https://cap3ya.github.io/todolist/index.html",
-            text: "Check it out"
+            text: "Live preview"
         },
     },
     {
@@ -127,11 +127,11 @@ export const projects = [
             height: "205",
             width: "365",
         },
-        skills: ["HTML", "CSS", "JavaScript, React"],
+        skills: ["HTML", "CSS", "JavaScript", "React"],
         text: "Don't start your resume from scratch. This site uses react's useState.",
         button: {
             href: "https://resume-builder-zeta-beryl.vercel.app/",
-            text: "Check it out"
+            text: "Live preview"
         },
     },
 ];
