@@ -2,8 +2,8 @@ export const projects = [
     {
         title: "Rock Paper Scissors",
         image: {
-            src: "./images/rockPaperScissors.png", 
-            alt: "Screenshot", 
+            src: "./images/rockPaperScissors.png",
+            alt: "Screenshot",
             height: "205",
             width: "364",
         },
@@ -17,8 +17,8 @@ export const projects = [
     {
         title: "Calculator",
         image: {
-            src: "./images/calculator.png", 
-            alt: "Screenshot", 
+            src: "./images/calculator.png",
+            alt: "Screenshot",
             height: "205",
             width: "364",
         },
@@ -32,8 +32,8 @@ export const projects = [
     {
         title: "Sign up Page",
         image: {
-            src: "./images/signupPage.png", 
-            alt: "Screenshot", 
+            src: "./images/signupPage.png",
+            alt: "Screenshot",
             height: "205",
             width: "364",
         },
@@ -47,8 +47,8 @@ export const projects = [
     {
         title: "Library",
         image: {
-            src: "./images/library.png", 
-            alt: "Screenshot", 
+            src: "./images/library.png",
+            alt: "Screenshot",
             height: "205",
             width: "364",
         },
@@ -62,8 +62,8 @@ export const projects = [
     {
         title: "Tic tac toe",
         image: {
-            src: "./images/tictactoe.png", 
-            alt: "Screenshot", 
+            src: "./images/tictactoe.png",
+            alt: "Screenshot",
             height: "205",
             width: "365",
         },
@@ -77,8 +77,8 @@ export const projects = [
     {
         title: "Tasty's Burgers",
         image: {
-            src: "./images/restaurant.png", 
-            alt: "Screenshot", 
+            src: "./images/restaurant.png",
+            alt: "Screenshot",
             height: "205",
             width: "365",
         },
@@ -92,8 +92,8 @@ export const projects = [
     {
         title: "Afpa's Dwwm",
         image: {
-            src: "./images/afpa.png", 
-            alt: "Screenshot", 
+            src: "./images/afpa.png",
+            alt: "Screenshot",
             height: "205",
             width: "365",
         },
@@ -105,10 +105,10 @@ export const projects = [
         },
     },
     {
-        title: "to-do list",
+        title: "To-do list",
         image: {
-            src: "./images/todolist.png", 
-            alt: "Screenshot", 
+            src: "./images/todolist.png",
+            alt: "Screenshot",
             height: "205",
             width: "365",
         },
@@ -116,6 +116,21 @@ export const projects = [
         text: "Front end to-do list. Login or signup. CRUD, filter and sort tasks.",
         button: {
             href: "https://cap3ya.github.io/todolist/index.html",
+            text: "Check it out"
+        },
+    },
+    {
+        title: "Resume builder",
+        image: {
+            src: "./images/resumebuilder.png",
+            alt: "Screenshot",
+            height: "205",
+            width: "365",
+        },
+        skills: ["HTML", "CSS", "JavaScript, React"],
+        text: "Don't start your resume from scratch. This site uses react's useState.",
+        button: {
+            href: "https://resume-builder-zeta-beryl.vercel.app/",
             text: "Check it out"
         },
     },
