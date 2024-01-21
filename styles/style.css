@@ -201,9 +201,7 @@ footer {
   }
   & .crafted {
     text-shadow: 1px 1px var(--color-orange);
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: var(--color-orange);
+    border-bottom: 2px solid --color-orange;
   }
 }
 /*SkILL*/
