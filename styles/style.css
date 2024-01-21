@@ -2,6 +2,7 @@
 :root {
   --color-blue: #2F81F7;
   --color-orange: #ff663f;
+  --border-radius: 5px;
 }
 /* CSS Reset */
 * {
@@ -20,20 +21,23 @@ html {
 }
 
 body {
-  font-family: tahoma,'trebuchet MS', system-ui;
-  font-size: 1.2rem;
+  font-family: tahoma, system-ui;
+  max-width: 1280px;
+  margin: 0 auto;
   color: white;
   padding: 1rem;
+  & > * {
+    margin: 1rem 0;
+  }
 }
 
 header {
-  max-width: 50rem;
-  height: 15rem;
   margin: 0 auto;
-  padding: 1rem;
+  max-width: 800px;
+  height: 15rem;
 
-  background: rgb(0 0 0 / 75%);
-  border-radius: 10px;
+  background: rgba(0, 0, 0, .75);
+  border-radius: var(--border-radius);
 
   display: flex;
   flex-wrap: wrap;
@@ -81,11 +85,11 @@ article {
 section {
   line-height: 1.6;
   padding: 1rem;
-  width: 400px;
-  min-height: 400px;
+  width: 390px;
+  min-height: 390px;
 
-  border: 2px solid white;
-  border-radius: 10px;
+  border: 1px solid  rgb(47, 144, 255);
+  border-radius: var(--border-radius);
 
   display: flex;
   row-gap: 1rem;
@@ -96,19 +100,17 @@ section {
   background: rgb(0 0 0 / 25%);
   &:hover,
   &:focus {
-    transform: scale(1.01);
-    border: 3px solid rgb(47, 144, 255);
+    border: 1px solid white;
   }
   & h3 {
     color: var(--color-orange);
-    text-align: center;
   }
   & img {
-    object-fit:contain;
     width: 100%;
     height: auto;
-    border-radius: 25px;
+    object-fit: cover;
     aspect-ratio: 16/9;
+    border-radius: var(--border-radius);
   }
   & .projectSkills {
     font-size: small;
@@ -119,31 +121,37 @@ section {
     text-align: center;
   }
   & button {
-    color: azure;
-    background-color: inherit;
     padding: 1rem;
-    border-radius: 10px;
-    border: 1px solid gray;
-    font-family: inherit;
+    color: white;
     box-shadow: 0 1px blue;
+    background-color: inherit;
+    border-radius: var(--border-radius);
     text-shadow: -1px 1px orange;
+    font-family: inherit;
+    border: none;
+    &:hover {
+      outline: 1px solid blue;
+    }
   }
   & .skills {
     margin-top: -1rem;
-  }
-  & button:hover,
-  & button:focus {
-    outline: 1px solid white;
   }
   &.underline {
     color: #09E;
     font-weight: 900;
   }
 }
-
+#mySkills p {
+  display: inline;
+  width: 50%;
+}
 #mySkills p > span {
   font-size:small;
 }
+section:hover button {
+    cursor: pointer;
+    border: none;
+} 
 
 .contact {
   & #email {
@@ -154,10 +162,11 @@ section {
   }
   & a {
     animation: contactBounce 1s ease infinite;
+    border-bottom: 1px solid transparent;
     margin-top: 2rem;
     &:hover,
     &:focus {
-      border-bottom: 2px solid white;
+      border-bottom: 1px solid white;
     }
   }
 } @keyframes contactBounce {
@@ -173,10 +182,13 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  & a:hover,
-  & a:focus {
-    border-bottom: 2px solid white;
+  & a {
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom-color: white;
+    }
   }
+
   & ul {
     display: flex;
     gap: 1rem;
@@ -185,10 +197,6 @@ footer {
       list-style: none;
       color: var(--color-blue);
       color: white;
-      &:hover,
-      &:focus {
-        transform: translate(0, -1px);
-      }
     }
   }
   & .crafted {
