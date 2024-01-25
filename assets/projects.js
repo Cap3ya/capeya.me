@@ -7,10 +7,10 @@ export const projects = [
             height: "205",
             width: "364",
         },
-        skills: ["HTML", "CSS", "JavaScript"],
-        text: "Play against a well behaved bot and try, in five rounds, to win the game!",
+        skills: ["HTML", "CSS", "TypeScript"],
+        text: "Play against a well behaved bot and try to win the game!",
         button: {
-            href: "https://Cap3ya.github.io/RockPaperScissors/rockPaperScissors.html",
+            href: "https://Cap3ya.github.io/rockPaperScissors/index.html",
             text: "Live preview"
         },
     },
