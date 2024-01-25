@@ -7,11 +7,13 @@ export const projects = [
             height: "205",
             width: "364",
         },
-        skills: ["HTML", "CSS", "TypeScript"],
-        text: "Play against a well behaved bot and try to win the game!",
-        button: {
+        skills: ["HTML", "CSS", "TypeScript", "Jest"],
+        text: "Play an endless battle against a well behaved bot!",
+        livePreview: {
             href: "https://rock-paper-scissors-umber-ten.vercel.app/",
-            text: "Live preview"
+        },
+        sourceCode: {
+            href: "https://github.com/Cap3ya/rockPaperScissors",
         },
     },
     {
@@ -24,9 +26,11 @@ export const projects = [
         },
         skills: ["HTML", "CSS", "JavaScript"],
         text: "A calculator that allows to perform the four basic arithmetic operations.",
-        button: {
+        livePreview: {
             href: "https://calculator-chi-two-62.vercel.app/",
-            text: "Live preview"
+        },
+        sourceCode: {
+            href: "https://github.com/Cap3ya/calculator",
         },
     },
     {
@@ -39,9 +43,11 @@ export const projects = [
         },
         skills: ["HTML", "CSS", "JavaScript"],
         text: "Use localStorage and JSON to add, remove and edit books from your library.",
-        button: {
+        livePreview: {
             href: "https://library-self-three.vercel.app",
-            text: "Live preview"
+        },
+        sourceCode: {
+            href: "https://github.com/Cap3ya/library",
         },
     },
     {
@@ -54,9 +60,11 @@ export const projects = [
         },
         skills: ["HTML", "CSS", "JavaScript", "HTMX"],
         text: "Read the rules, pick your character and play with a friend or againt an AI.",
-        button: {
+        livePreview: {
             href: "https://tic-tac-toe-chi-gold-46.vercel.app/",
-            text: "Live preview"
+        },
+        sourceCode: {
+            href: "https://github.com/Cap3ya/ticTacToe",
         },
     },
     {
@@ -69,9 +77,11 @@ export const projects = [
         },
         skills: ["HTML", "CSS", "JavaScript", "WebPack"],
         text: "Full javaScript and bundled with WebPack. Use tabs to navigate between pages.",
-        button: {
+        livePreview: {
             href: "https://restaurant-khaki-omega.vercel.app",
-            text: "Live preview"
+        },
+        sourceCode: {
+            href: "https://github.com/Cap3ya/restaurant",
         },
     },
     {
@@ -84,9 +94,11 @@ export const projects = [
         },
         skills: ["Figma", "HTML", "CSS"],
         text: "Had to wireframe, mockup and prototype a 5 pages responsive website.",
-        button: {
+        livePreview: {
             href: "https://afpa-dwwm.vercel.app/",
-            text: "Live preview"
+        },
+        sourceCode: {
+            href: "https://github.com/Cap3ya/afpaDwwm",
         },
     },
     {
@@ -99,9 +111,11 @@ export const projects = [
         },
         skills: ["HTML", "CSS", "JavaScript"],
         text: "Front end to-do list. Login or signup. CRUD, filter and sort tasks.",
-        button: {
+        livePreview: {
             href: "https://todolist-nu-flame.vercel.app/",
-            text: "Live preview"
+        },
+        sourceCode: {
+            href: "https://github.com/Cap3ya/todolist",
         },
     },
     {
@@ -114,9 +128,11 @@ export const projects = [
         },
         skills: ["HTML", "CSS", "JavaScript", "React"],
         text: "Don't start your resume from scratch. This site uses react's useState.",
-        button: {
+        livePreview: {
             href: "https://resume-builder-rho-eight.vercel.app/",
-            text: "Live preview"
+        },
+        sourceCode: {
+            href: "https://github.com/Cap3ya/resumeBuilder",
         },
     },
 ];
