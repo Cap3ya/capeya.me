@@ -19,10 +19,31 @@ function main() {
             const text = document.createElement('p'); text.textContent = project.text; section.appendChild(text);
             const livePreview = document.createElement('button'); livePreview.innerHTML = `<a href=${project.livePreview.href}>Live preview</a>`; section.appendChild(livePreview);
             const sourceCode = document.createElement('button'); sourceCode.innerHTML = `<a href=${project.sourceCode.href}>Source code</a>`; section.appendChild(sourceCode);
-
         });
     })();
-
 }
 
-main(); 
+main();
+
+links = {
+    name: {
+
+    }
+}
+const linksName = ["about","projects","contacts"];
+document.querySelectorAll(".links").forEach(element =>
+    element.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        const link = event.target.getAttribute("href");
+
+        linksName.forEach( name => {
+            if (name === link) {
+                
+            } else {
+
+            }
+        });
+        
+    })
+)
