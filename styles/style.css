@@ -3,6 +3,7 @@
   --color-blue: #2F81F7;
   --color-orange: #ff663f;
   --border-radius: 5px;
+  --gap: 5em;
 }
 
 /* CSS Reset */
@@ -23,18 +24,24 @@ html {
 }
 
 body {
+  min-height: 100vh;
   font-family: tahoma, system-ui;
   max-width: 1280px;
   margin: 0 auto;
   color: white;
   padding: 1em;
 
-  &>*:nth-child(n+2) {
-    margin-top: 1em;
+  gap: var(--gap);
+  display: flex;
+  flex-direction: column;
+
+  & main {
+    flex: 1;
   }
 }
 
 header {
+  width: 100%;
   padding: 1em;
   margin: 0 auto;
   max-width: 800px;
@@ -121,11 +128,14 @@ header {
   }
 }
 
+main {
+  flex: 1;
+}
+
 .title {
-  height: 10rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-bottom: var(--gap);
 
   & h2 {
     text-shadow: -1px 1px orange;
@@ -265,32 +275,7 @@ section:hover button {
 }
 
 footer {
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-
-  & a {
-    border-bottom: 1px solid transparent;
-
-    &:hover {
-      border-bottom-color: white;
-    }
-  }
-
-  & ul {
-    display: flex;
-    gap: 1rem;
-    font-size: inherit;
-
-    & li {
-      list-style: none;
-      color: var(--color-blue);
-      color: white;
-    }
-  }
+  text-align: center;
 
   & .crafted {
     text-shadow: 1px 1px var(--color-orange);
@@ -300,7 +285,7 @@ footer {
 
 /*SkILL*/
 .CSS {
-  color: #254BDD;
+  color: green;
 }
 
 .HTML {
@@ -313,4 +298,12 @@ footer {
 
 .Figma {
   color: orchid;
+}
+
+.TypeScript {
+  color: blueviolet;
+}
+
+.React {
+  color: orange;
 }
