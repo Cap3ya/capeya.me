@@ -1,18 +1,11 @@
 import { projects, projectSkills } from './projects.js'
-import skills from './Skills.js'
+import MySkills from './MySkills.js'
 
 function main() {
 
-    /// APPEND SKILLS LIST & NUM OF OCCURENCES TO DOC.MY_SKILLS \\\
-    projectSkills.forEach(skill => skills.set(skill));
-
-    const root = document.getElementById('mySkills')
-    for (let skill of skills.get()) {
-        const p = document.createElement('p')
-        p.classList = "skill"
-        p.innerHTML = skill[0] + " <span>" + skill[1] + "</span>"
-        root.append(p)
-    }
+    /// APPEND (SKILL + OCCURENCE) LIST TO #mySkills \\\
+    MySkills.set(projectSkills);
+    MySkills.append();
 
     /// RENDER PROJECTS TO DOC.MY_PROJECTS \\\
     (function Projects() {
