@@ -25,25 +25,36 @@ function main() {
 
 main();
 
-links = {
-    name: {
-
-    }
+const links = {
+    about: {
+        link: document.querySelector('[href="about"]'),
+        tag: document.querySelector('my-about'),
+    },
+    projects: {
+        link: document.querySelector('[href="projects"]'),
+        tag: document.querySelector('my-projects'),
+    },
+    contacts: {
+        link: document.querySelector('[href="contacts"]'),
+        tag: document.querySelector('my-contacts'),
+    },
 }
-const linksName = ["about","projects","contacts"];
+
 document.querySelectorAll(".links").forEach(element =>
     element.addEventListener('click', (event) => {
         event.preventDefault();
 
-        const link = event.target.getAttribute("href");
+        const href = event.target.getAttribute("href");
 
-        linksName.forEach( name => {
-            if (name === link) {
-                
-            } else {
-
+        Object.entries(links).forEach( link => {
+            if (href === link[0]) { 
+                link[1].link.classList.add("active");
+                link[1].tag.hidden = false;
+            }
+            else {
+                link[1].link.classList.remove("active");
+                link[1].tag.hidden = true;
             }
         });
-        
     })
 )
