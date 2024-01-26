@@ -86,8 +86,7 @@ header {
         &>a {
           margin: .5em;
 
-          &.active,
-          &:hover {
+          &.active {
             font-weight: 500;
             border-bottom: 2px solid var(--color-orange);
           }
