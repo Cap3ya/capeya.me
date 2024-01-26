@@ -191,6 +191,11 @@ section {
     text-align: center;
   }
 
+  & .buttons {
+    display: flex;
+    gap: 1em;
+  }
+
   & button {
     padding: 1rem;
     color: white;
