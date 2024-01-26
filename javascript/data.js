@@ -1,4 +1,4 @@
-export const projects = [
+export const data = [
   {
     title: "Rock Paper Scissors",
     image: {
@@ -137,4 +137,4 @@ export const projects = [
   },
 ];
 
-export const projectSkills = projects.map(project => project.skills).reduce((pre, cur) => pre.concat(cur))
+export const dataSkills = projects.map(project => project.skills).reduce((pre, cur) => pre.concat(cur))

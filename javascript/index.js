@@ -1,4 +1,4 @@
-import { projects, projectSkills } from './data.js'
+import { data, dataSkills } from './data.js'
 import MySkills from './MySkills.js'
 import Projects from './Projects.js';
 import Router from './Router.js';
@@ -6,11 +6,11 @@ import Router from './Router.js';
 function main() {
 
   /// APPEND (SKILL + OCCURENCE) LIST TO #mySkills \\\
-  MySkills.set(projectSkills);
+  MySkills.set(dataSkills);
   MySkills.append();
 
   /// RENDER PROJECTS TO DOC.MY_PROJECTS \\\
-  Projects.append(projects)
+  Projects.append(data)
 
   document.querySelectorAll(".links").forEach(element =>
     element.addEventListener('click', (event) => {
