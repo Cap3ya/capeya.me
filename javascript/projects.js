@@ -136,3 +136,5 @@ export const projects = [
         },
     },
 ];
+
+export const projectSkills = projects.map(project => project.skills).reduce((pre, cur) => pre.concat(cur))

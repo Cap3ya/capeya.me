@@ -141,10 +141,7 @@ section {
     font-weight: 900;
   }
 }
-#mySkills p {
-  display: inline;
-  width: 50%;
-}
+
 #mySkills p > span {
   font-size:small;
 }
@@ -152,7 +149,6 @@ section:hover button {
     cursor: pointer;
     border: none;
 } 
-
 .contact {
   & #email {
     animation-delay: calc(500ms * (2/3) );
