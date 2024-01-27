@@ -137,4 +137,4 @@ export const data = [
   },
 ];
 
-export const dataSkills = projects.map(project => project.skills).reduce((pre, cur) => pre.concat(cur))
+export const dataSkills = data.map(project => project.skills).reduce((pre, cur) => pre.concat(cur))
