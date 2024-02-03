@@ -135,6 +135,23 @@ export const data = [
       href: "https://github.com/Cap3ya/resumeBuilder",
     },
   },
+  {
+    title: "BlackJack",
+    image: {
+      src: "./images/blackjack.png",
+      alt: "Screenshot",
+      height: "205",
+      width: "365",
+    },
+    skills: ["HTML", "CSS", "JavaScript"],
+    text: "Team project for Afpa's DWWM 2023. Let's beat the dealer.",
+    livePreview: {
+      href: "https://blackjack-one-rho.vercel.app/",
+    },
+    sourceCode: {
+      href: "https://github.com/Cap3ya/blackjack",
+    },
+  },
 ];
 
 export const dataSkills = data.map(project => project.skills).reduce((pre, cur) => pre.concat(cur))
