@@ -2,8 +2,20 @@ import { data, dataSkills } from './data.js'
 import MySkills from './MySkills.js'
 import Projects from './Projects.js';
 import Router from './Router.js';
+import { carousel } from './typingEffect.js';
+
+const carouselText = [
+  { text: "Front End", color: "#ff663f" },
+  { text: "Back End", color: "ff663f" },
+  { text: "Full Stack", color: "#ff663f" }
+]
 
 function main() {
+
+  document.body.onload = async function () {
+    carousel(carouselText, "#carousel");
+  };
+
 
   /// APPEND (SKILL + OCCURENCE) LIST TO #mySkills \\\
   MySkills.set(dataSkills);
