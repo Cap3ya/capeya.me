@@ -152,6 +152,23 @@ export const data = [
       href: "https://github.com/Cap3ya/blackjack",
     },
   },
+  {
+    title: "Jeu du Pendu",
+    image: {
+      src: "./images/jeudupendu.png",
+      alt: "Screenshot",
+      height: "205",
+      width: "365",
+    },
+    skills: ["HTML", "CSS", "JavaScript"],
+    text: "Project for Afpa's DWWM 2023. Find a word in less than nine errors.",
+    livePreview: {
+      href: "https://jeu-du-pendu-wine.vercel.app/",
+    },
+    sourceCode: {
+      href: "https://github.com/Cap3ya/jeuDuPendu",
+    },
+  },
 ];
 
 export const dataSkills = data.map(project => project.skills).reduce((pre, cur) => pre.concat(cur))
