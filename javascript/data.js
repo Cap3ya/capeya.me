@@ -7,7 +7,7 @@ export const data = [
       height: "205",
       width: "364",
     },
-    skills: ["HTML", "CSS", "TypeScript", "Jest"],
+    skills: ["Html", "Css", "Typescript", "Jest"],
     text: "Play an endless battle against a well behaved bot!",
     livePreview: {
       href: "https://rock-paper-scissors-umber-ten.vercel.app/",
@@ -24,7 +24,7 @@ export const data = [
       height: "205",
       width: "364",
     },
-    skills: ["HTML", "CSS", "JavaScript"],
+    skills: ["Html", "Css", "Javascript"],
     text: "A calculator that allows to perform the four basic arithmetic operations.",
     livePreview: {
       href: "https://calculator-chi-two-62.vercel.app/",
@@ -41,7 +41,7 @@ export const data = [
       height: "205",
       width: "364",
     },
-    skills: ["HTML", "CSS", "JavaScript"],
+    skills: ["Html", "Css", "Javascript"],
     text: "Use localStorage and JSON to add, remove and edit books from your library.",
     livePreview: {
       href: "https://library-self-three.vercel.app",
@@ -58,7 +58,7 @@ export const data = [
       height: "205",
       width: "365",
     },
-    skills: ["HTML", "CSS", "JavaScript", "HTMX"],
+    skills: ["Html", "Css", "Javascript", "Htmx"],
     text: "Read the rules, pick your character and play with a friend or againt an AI.",
     livePreview: {
       href: "https://tic-tac-toe-chi-gold-46.vercel.app/",
@@ -75,8 +75,8 @@ export const data = [
       height: "205",
       width: "365",
     },
-    skills: ["HTML", "CSS", "JavaScript", "WebPack"],
-    text: "Full javaScript and bundled with WebPack. Use tabs to navigate between pages.",
+    skills: ["Html", "Css", "Javascript", "WebPack"],
+    text: "Full Javascript and bundled with WebPack. Use tabs to navigate between pages.",
     livePreview: {
       href: "https://restaurant-khaki-omega.vercel.app",
     },
@@ -92,7 +92,7 @@ export const data = [
       height: "205",
       width: "365",
     },
-    skills: ["Figma", "HTML", "CSS"],
+    skills: ["Figma", "Html", "Css"],
     text: "Had to wireframe, mockup and prototype a 5 pages responsive website.",
     livePreview: {
       href: "https://afpa-dwwm.vercel.app/",
@@ -109,7 +109,7 @@ export const data = [
       height: "205",
       width: "365",
     },
-    skills: ["HTML", "CSS", "JavaScript"],
+    skills: ["Html", "Css", "Javascript"],
     text: "Front end to-do list. Login or signup. CRUD, filter and sort tasks.",
     livePreview: {
       href: "https://todolist-nu-flame.vercel.app/",
@@ -126,7 +126,7 @@ export const data = [
       height: "205",
       width: "365",
     },
-    skills: ["HTML", "CSS", "JavaScript", "React"],
+    skills: ["Html", "Css", "Javascript", "React"],
     text: "Don't start your resume from scratch. This site uses react's useState.",
     livePreview: {
       href: "https://resume-builder-rho-eight.vercel.app/",
@@ -143,7 +143,7 @@ export const data = [
       height: "205",
       width: "365",
     },
-    skills: ["HTML", "CSS", "JavaScript"],
+    skills: ["Html", "Css", "Javascript"],
     text: "Team project for Afpa's DWWM 2023. Let's beat the dealer.",
     livePreview: {
       href: "https://blackjack-one-rho.vercel.app/",
@@ -160,7 +160,7 @@ export const data = [
       height: "205",
       width: "365",
     },
-    skills: ["HTML", "CSS", "JavaScript"],
+    skills: ["Html", "Css", "Javascript"],
     text: "Project for Afpa's DWWM 2023. Find a word in less than nine errors.",
     livePreview: {
       href: "https://jeu-du-pendu-wine.vercel.app/",

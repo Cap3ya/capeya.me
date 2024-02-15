@@ -31,9 +31,7 @@ body {
   color: white;
   padding: 1em;
 
-  display: flex;
   gap: var(--gap);
-  flex-direction: column;
 
   & main {
     flex: 1;
@@ -61,6 +59,7 @@ header {
 
   &>nav {
     width: 100%;
+
     &>ul {
       list-style: none;
       padding: 1em;
@@ -71,25 +70,12 @@ header {
 
         &>a {
           &.active {
-            font-weight: 500;
             border-bottom: 2px solid var(--color-orange);
           }
         }
       }
     }
   }
-}
-
-@media screen and (max-width:400px) {
-  header {
-    &>div {
-      flex-direction: column;
-    }
-  }
-}
-
-main {
-  flex: 1;
 }
 
 .title {
@@ -122,7 +108,7 @@ section {
   display: flex;
   row-gap: 1rem;
   flex-direction: column;
-  justify-content: flex-start;
+  /* justify-content: space-between; */
   align-items: center;
 
   background: rgb(0 0 0 / 25%);
@@ -143,6 +129,17 @@ section {
     font-size: small;
   }
 
+  & .projectsTitle {
+    flex: 1; 
+    color: #ff663f;
+    font-weight: 600;
+
+    & span {
+      color: white;
+      font-weight: 500;
+    }
+  }
+
   & p {
     max-width: 40ch;
     text-align: center;
@@ -156,50 +153,47 @@ section {
 
   & button {
     flex: 1;
-    padding: 1rem;
+    padding: .5rem;
     font-weight: 600;
     font-size: inherit;
     color: white;
     background-color: inherit;
     border-radius: var(--border-radius);
     font-family: inherit;
-    border: none;
-  }
+    border: 2px solid transparent;
 
-  & .skills {
-    margin-top: -1rem;
-  }
-
-  & .projectsTitle {
-    color: #ff663f;
-    & span {
-      color: white;
+    &:hover {
+      & a {
+        text-decoration-line: underline;
+        text-decoration-color: var(--color-orange);
+        text-decoration-thickness: 2px;
+      }
     }
   }
+}
 
-  &.underline {
-    color: #09E;
-    font-weight: 900;
+#mySkills {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+  & p {
+    & span {
+      font-size: small;
+    }
   }
-}
-
-#mySkills p>span {
-  font-size: small;
-}
-
-section:hover button {
-  cursor: pointer;
-  border: none;
 }
 
 .contact {
   & a {
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
     margin-top: 2rem;
 
     &:hover,
     &:focus {
-      border-bottom: 1px solid white;
+      border-bottom-color: var(--color-orange);
     }
   }
 }
@@ -209,7 +203,6 @@ footer {
 
   & .crafted {
     text-shadow: 1px 1px var(--color-orange);
-    border-bottom: 2px solid --color-orange;
   }
 }
 
