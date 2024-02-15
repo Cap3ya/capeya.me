@@ -31,8 +31,8 @@ body {
   color: white;
   padding: 1em;
 
-  gap: var(--gap);
   display: flex;
+  gap: var(--gap);
   flex-direction: column;
 
   & main {
@@ -42,79 +42,40 @@ body {
 
 header {
   width: 100%;
-  padding: 1em;
   margin: 0 auto;
   max-width: 800px;
 
   background: rgba(0, 0, 0, .75);
   border-radius: var(--border-radius);
 
-  display: flex;
+  width: 80%;
   align-items: center;
   justify-content: center;
 
-  &>div {
-    column-gap: 1em;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  & h1 {
+    font-size: 3rem;
+  }
 
-    &>img {
-      margin: .5em;
-      width: 100px;
-      height: auto;
-    }
-
-    &>div {
-      padding: .5em;
-
-      &>h1 {
-        font-size: 3rem;
-      }
-
-      &>em {
-        color: var(--color-orange);
-      }
-    }
+  & em {
+    color: var(--color-orange);
   }
 
   &>nav {
-    min-width: 100px;
-    padding: .5em;
-
+    width: 100%;
     &>ul {
       list-style: none;
+      padding: 1em;
 
       &>li {
-        text-align: right;
-        margin: .5em;
+        flex: 1;
+        text-align: center;
 
         &>a {
-          margin: .5em;
-
           &.active {
             font-weight: 500;
             border-bottom: 2px solid var(--color-orange);
           }
         }
-      }
-    }
-  }
-}
-
-@media screen and (max-width:500px) {
-  header {
-    flex-direction: column;
-
-    & nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-
-      & li {
-        flex: 1;
-        text-align: center;
       }
     }
   }
@@ -140,11 +101,6 @@ main {
   & h2 {
     text-shadow: -1px 1px orange;
     border-bottom: 2px solid var(--color-orange);
-
-    &:hover::before,
-    &:focus::before {
-      content: '#';
-    }
   }
 }
 
@@ -283,27 +239,10 @@ footer {
   }
 }
 
-/*SkILL*/
-.CSS {
-  color: green;
-}
+.flex {
+  display: flex;
 
-.HTML {
-  color: #DD4B24;
-}
-
-.JavaScript {
-  color: #E8D44D;
-}
-
-.Figma {
-  color: orchid;
-}
-
-.TypeScript {
-  color: blueviolet;
-}
-
-.React {
-  color: orange;
+  &.column {
+    flex-direction: column;
+  }
 }

@@ -12,16 +12,11 @@
 </head>
 
 <body>
-  <header>
-    <div>
-      <img src="./images/logo.svg" alt="logo" width="100" height="100">
-      <div>
-        <h1>Capeya</h1>
-        <em><span id="carousel"></span> Developer</em>
-      </div>
-    </div>
+  <header class="flex column">
+    <h1>Capeya</h1>
+    <em><span id="carousel"></span> Developer</em>
     <nav>
-      <ul>
+      <ul class="flex">
         <li><a class="links active" href="about">About</a></li>
         <li><a class="links" href="projects">Projects</a></li>
         <li><a class="links" href="contacts">Contacts</a></li>
@@ -32,7 +27,7 @@
   <main>
     <my-about>
       <div class="title">
-        <h2 id="abouts"><a href="#abouts">About me</a></h2>
+        <h2 id="abouts">About me</h2>
       </div>
       <article>
         <section>
@@ -51,7 +46,7 @@
     </my-about>
     <my-projects hidden>
       <div class="title">
-        <h2 id="projects" class="font-fancy"><a href="#projects">My Projects</a></h2>
+        <h2 id="projects" class="font-fancy">My Projects</h2>
       </div>
       <article class="projects">
         <!--Some JavaScript is running here to render myProjetcs-->
@@ -59,7 +54,7 @@
     </my-projects>
     <my-contacts hidden>
       <div class="title">
-        <h2 id="contacts"><a href="#contacts">Contact me</a></h2>
+        <h2 id="contacts">Contact me</h2>
       </div>
       <article>
         <section class="contact">
