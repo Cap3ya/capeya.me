@@ -2,7 +2,7 @@ export const data = [
   {
     title: "Rock Paper Scissors",
     image: {
-      src: "./images/rockPaperScissors.png",
+      src: "./images/projects/rockPaperScissors.png",
       alt: "Screenshot",
       height: "205",
       width: "364",
@@ -19,7 +19,7 @@ export const data = [
   {
     title: "Calculator",
     image: {
-      src: "./images/calculator.png",
+      src: "./images/projects/calculator.png",
       alt: "Screenshot",
       height: "205",
       width: "364",
@@ -36,7 +36,7 @@ export const data = [
   {
     title: "Library",
     image: {
-      src: "./images/library.png",
+      src: "./images/projects/library.png",
       alt: "Screenshot",
       height: "205",
       width: "364",
@@ -53,7 +53,7 @@ export const data = [
   {
     title: "Tic tac toe",
     image: {
-      src: "./images/tictactoe.png",
+      src: "./images/projects/tictactoe.png",
       alt: "Screenshot",
       height: "205",
       width: "365",
@@ -70,7 +70,7 @@ export const data = [
   {
     title: "Tasty's Burgers",
     image: {
-      src: "./images/restaurant.png",
+      src: "./images/projects/restaurant.png",
       alt: "Screenshot",
       height: "205",
       width: "365",
@@ -87,7 +87,7 @@ export const data = [
   {
     title: "Afpa's Dwwm",
     image: {
-      src: "./images/afpa.png",
+      src: "./images/projects/afpa.png",
       alt: "Screenshot",
       height: "205",
       width: "365",
@@ -104,7 +104,7 @@ export const data = [
   {
     title: "To-do list",
     image: {
-      src: "./images/todolist.png",
+      src: "./images/projects/todolist.png",
       alt: "Screenshot",
       height: "205",
       width: "365",
@@ -121,7 +121,7 @@ export const data = [
   {
     title: "Resume builder",
     image: {
-      src: "./images/resumebuilder.png",
+      src: "./images/projects/resumebuilder.png",
       alt: "Screenshot",
       height: "205",
       width: "365",
@@ -138,7 +138,7 @@ export const data = [
   {
     title: "BlackJack",
     image: {
-      src: "./images/blackjack.png",
+      src: "./images/projects/blackjack.png",
       alt: "Screenshot",
       height: "205",
       width: "365",
@@ -155,7 +155,7 @@ export const data = [
   {
     title: "Jeu du Pendu",
     image: {
-      src: "./images/jeudupendu.png",
+      src: "./images/projects/jeudupendu.png",
       alt: "Screenshot",
       height: "205",
       width: "365",

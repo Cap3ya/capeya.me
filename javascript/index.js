@@ -1,5 +1,4 @@
 import { data, dataSkills } from './data.js'
-import MySkills from './MySkills.js'
 import Projects from './Projects.js';
 import Router from './Router.js';
 import { carousel } from './typingEffect.js';
@@ -16,10 +15,6 @@ function main() {
     carousel(carouselText, "#carousel");
   };
 
-
-  /// APPEND (SKILL + OCCURENCE) LIST TO #mySkills \\\
-  MySkills.set(dataSkills);
-  MySkills.append();
 
   /// RENDER PROJECTS TO DOC.MY_PROJECTS \\\
   Projects.append(data)
