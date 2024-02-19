@@ -1,11 +1,9 @@
-export const data = [
+const data = [
   {
     title: "Rock Paper Scissors",
     image: {
       src: "./images/projects/rockPaperScissors.png",
       alt: "Screenshot",
-      height: "205",
-      width: "364",
     },
     skills: ["Html", "Css", "Typescript", "Jest"],
     text: "Play an endless battle against a well behaved bot!",
@@ -21,8 +19,6 @@ export const data = [
     image: {
       src: "./images/projects/calculator.png",
       alt: "Screenshot",
-      height: "205",
-      width: "364",
     },
     skills: ["Html", "Css", "Javascript"],
     text: "A calculator that allows to perform the four basic arithmetic operations.",
@@ -38,8 +34,6 @@ export const data = [
     image: {
       src: "./images/projects/library.png",
       alt: "Screenshot",
-      height: "205",
-      width: "364",
     },
     skills: ["Html", "Css", "Javascript"],
     text: "Use localStorage and JSON to add, remove and edit books from your library.",
@@ -55,8 +49,6 @@ export const data = [
     image: {
       src: "./images/projects/tictactoe.png",
       alt: "Screenshot",
-      height: "205",
-      width: "365",
     },
     skills: ["Html", "Css", "Javascript", "Htmx"],
     text: "Read the rules, pick your character and play with a friend or againt an AI.",
@@ -72,8 +64,6 @@ export const data = [
     image: {
       src: "./images/projects/restaurant.png",
       alt: "Screenshot",
-      height: "205",
-      width: "365",
     },
     skills: ["Html", "Css", "Javascript", "WebPack"],
     text: "Full Javascript and bundled with WebPack. Use tabs to navigate between pages.",
@@ -89,8 +79,6 @@ export const data = [
     image: {
       src: "./images/projects/afpa.png",
       alt: "Screenshot",
-      height: "205",
-      width: "365",
     },
     skills: ["Figma", "Html", "Css"],
     text: "Had to wireframe, mockup and prototype a 5 pages responsive website.",
@@ -106,8 +94,6 @@ export const data = [
     image: {
       src: "./images/projects/todolist.png",
       alt: "Screenshot",
-      height: "205",
-      width: "365",
     },
     skills: ["Html", "Css", "Javascript"],
     text: "Front end to-do list. Login or signup. CRUD, filter and sort tasks.",
@@ -123,8 +109,6 @@ export const data = [
     image: {
       src: "./images/projects/resumebuilder.png",
       alt: "Screenshot",
-      height: "205",
-      width: "365",
     },
     skills: ["Html", "Css", "Javascript", "React"],
     text: "Don't start your resume from scratch. This site uses react's useState.",
@@ -140,8 +124,6 @@ export const data = [
     image: {
       src: "./images/projects/blackjack.png",
       alt: "Screenshot",
-      height: "205",
-      width: "365",
     },
     skills: ["Html", "Css", "Javascript"],
     text: "Team project for Afpa's DWWM 2023. Let's beat the dealer.",
@@ -157,8 +139,6 @@ export const data = [
     image: {
       src: "./images/projects/jeudupendu.png",
       alt: "Screenshot",
-      height: "205",
-      width: "365",
     },
     skills: ["Html", "Css", "Javascript"],
     text: "Project for Afpa's DWWM 2023. Find a word in less than nine errors.",
@@ -171,4 +151,4 @@ export const data = [
   },
 ];
 
-export const dataSkills = data.map(project => project.skills).reduce((pre, cur) => pre.concat(cur))
+export default data; 

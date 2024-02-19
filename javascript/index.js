@@ -1,6 +1,6 @@
-import { data, dataSkills } from './data.js'
-import Projects from './Projects.js';
-import Router from './Router.js';
+import data from './data.js'
+import project from './projects.js';
+import router from './router.js';
 import { carousel } from './typingEffect.js';
 
 const carouselText = [
@@ -17,7 +17,7 @@ function main() {
 
 
   /// RENDER PROJECTS TO DOC.MY_PROJECTS \\\
-  Projects.append(data)
+  project.append(data)
 
   document.querySelectorAll(".links").forEach(element =>
     element.addEventListener('click', (event) => {
@@ -25,7 +25,7 @@ function main() {
 
       const href = event.target.getAttribute("href");
 
-      Object.entries(Router).forEach(route => {
+      Object.entries(router).forEach(route => {
         if (route[0] === href) {
           route[1].link.classList.add("active");
           route[1].tag.hidden = false;

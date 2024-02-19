@@ -1,4 +1,4 @@
-const Router = {
+const router = {
     about: {
         link: document.querySelector('[href="about"]'),
         tag: document.querySelector('my-about'),
@@ -13,4 +13,4 @@ const Router = {
     },
 }
 
-export default Router; 
+export default router; 
