@@ -12,7 +12,7 @@ document.body.onload = async function () {
 dom.appendProjects(projects)
 // Navigation
 dom.nav.addEventListener("click", (event) => {
-  if (event.target.tagName === 'A') {
+  if (event.target.classList.contains('links')) {
     event.preventDefault();
     dom.getRoute(event.target.getAttribute("href"))
   }
