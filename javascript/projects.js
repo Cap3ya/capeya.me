@@ -139,6 +139,20 @@ const projects = [
       href: "https://github.com/Cap3ya/jeuDuPendu",
     },
   },
+  {
+    title: "Message Board",
+    image: {
+      src: "./images/projects/messageBoard.png",
+    },
+    skills: ["Html", "Css", "Javascript, Php, Twig, MySQL"],
+    text: "Project for Afpa's DWWM 2023. Share your thoughts on this message board.",
+    livePreview: {
+      href: "",
+    },
+    sourceCode: {
+      href: "https://github.com/Cap3ya/messageBoard",
+    },
+  },
 ];
 
 export default projects; 
